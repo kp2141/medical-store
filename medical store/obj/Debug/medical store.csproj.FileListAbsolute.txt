@@ -1,0 +1,15 @@
+C:\Users\Kevin\documents\visual studio 2013\Projects\medical store\medical store\bin\Debug\medical store.exe.config
+C:\Users\Kevin\documents\visual studio 2013\Projects\medical store\medical store\bin\Debug\medical store.exe
+C:\Users\Kevin\documents\visual studio 2013\Projects\medical store\medical store\bin\Debug\medical store.pdb
+C:\Users\Kevin\documents\visual studio 2013\Projects\medical store\medical store\obj\Debug\medical_store.add_item.resources
+C:\Users\Kevin\documents\visual studio 2013\Projects\medical store\medical store\obj\Debug\medical_store.available.resources
+C:\Users\Kevin\documents\visual studio 2013\Projects\medical store\medical store\obj\Debug\medical_store.billing.resources
+C:\Users\Kevin\documents\visual studio 2013\Projects\medical store\medical store\obj\Debug\medical_store.change_price.resources
+C:\Users\Kevin\documents\visual studio 2013\Projects\medical store\medical store\obj\Debug\medical_store.final_bill.resources
+C:\Users\Kevin\documents\visual studio 2013\Projects\medical store\medical store\obj\Debug\medical_store.Form1.resources
+C:\Users\Kevin\documents\visual studio 2013\Projects\medical store\medical store\obj\Debug\medical_store.main.resources
+C:\Users\Kevin\documents\visual studio 2013\Projects\medical store\medical store\obj\Debug\medical_store.Properties.Resources.resources
+C:\Users\Kevin\documents\visual studio 2013\Projects\medical store\medical store\obj\Debug\medical store.csproj.GenerateResource.Cache
+C:\Users\Kevin\documents\visual studio 2013\Projects\medical store\medical store\obj\Debug\medical store.exe
+C:\Users\Kevin\documents\visual studio 2013\Projects\medical store\medical store\obj\Debug\medical store.pdb
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\medical store\medical store\obj\Debug\medical store.csprojResolveAssemblyReference.cache

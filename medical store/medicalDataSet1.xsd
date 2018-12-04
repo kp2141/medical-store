@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="medicalDataSet1" targetNamespace="http://tempuri.org/medicalDataSet1.xsd" xmlns:mstns="http://tempuri.org/medicalDataSet1.xsd" xmlns="http://tempuri.org/medicalDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="medicalConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="medicalConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.medical_store.Properties.Settings.GlobalReference.Default.medicalConnectionString1" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="avl_stockTableAdapter" GeneratorDataComponentClassName="avl_stockTableAdapter" Name="avl_stock" UserDataComponentName="avl_stockTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="medicalConnectionString1 (Settings)" DbObjectName="medical.avl_stock" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id`, `p_name`, `p_price`, `p_quantity` FROM `avl_stock`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="medicalDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="medicalDataSet1" msprop:Generator_UserDSName="medicalDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="avl_stock" msprop:Generator_TableClassName="avl_stockDataTable" msprop:Generator_TableVarName="tableavl_stock" msprop:Generator_TablePropName="avl_stock" msprop:Generator_RowDeletingName="avl_stockRowDeleting" msprop:Generator_RowChangingName="avl_stockRowChanging" msprop:Generator_RowEvHandlerName="avl_stockRowChangeEventHandler" msprop:Generator_RowDeletedName="avl_stockRowDeleted" msprop:Generator_UserTableName="avl_stock" msprop:Generator_RowChangedName="avl_stockRowChanged" msprop:Generator_RowEvArgName="avl_stockRowChangeEvent" msprop:Generator_RowClassName="avl_stockRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
